@@ -1,0 +1,50 @@
+Appliquer les règles suivantes lors de la programmation :
+
+	- Indentation correcte (oui)
+	
+	- Lors du prototypage d'une fonction sans paramètre, indiquer void dans les paramètres
+		mafonction(void);
+	
+	- Dans les headers, respecter la forme
+		public:
+			//trucs publics
+		private:
+			//trucs private et TOUS les attributs
+	
+	- Être généreux en commentaires bien écrits (avant chaque fonction)
+	
+	- Lors du prototypage, commenter avant chaque fonction comme dans l'exemple suivant :
+	
+		/// description de la fonction
+		/// \param param1 description du premier parametre param1
+		/// \param param2 ...
+		/// \todo ce qu'il reste à faire
+		void fonction(void)
+		{
+			// ne rien faire
+		}
+	
+	- Quand une fonction ou une condition est supposée ne rien faire, le commenter
+
+		if (true) {
+			// ne rien faire
+			// void
+			// nada
+			// keutchy
+			// ^au choix^
+		}
+	
+	- Ne pas utiliser de namespace
+	
+	- Les noms de variable doivent être les plus courts et précis possibles
+		premiereVariable -> var1 / premVar
+	
+	- Utiliser du CamelCase (pas de "_")
+	
+	- Les noms des classes doivent commencer par une majuscule
+	
+	- Les noms des méthodes STATIQUES doivent commencer par une majuscule
+	
+	- Les noms des autres méthodes et des attributs doivent commencer par une minuscule
+	
+	
